@@ -8,7 +8,14 @@
    font-size: 20px;
    justify-content: space-between;
   }
-
+.title {
+    left: 50px;
+    top: 60px;
+    position: fixed;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
   nav {
     background: #02908B;
     height: 60px;
@@ -88,7 +95,7 @@
    .styled {
    
     line-height: 2.5;
-    padding: 15px 80px;
+    padding: 15px 50px;
 
     font-size: 1.5em;
     margin: 15px;

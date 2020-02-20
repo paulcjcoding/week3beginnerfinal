@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+  }
+  header {
+   padding: 20px
+ }
+ p {
+   font-size: 20px;
+   justify-content: space-between;
+  }
+
+  nav {
+    background: #02908B;
+    height: 60px;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    padding: 50px;
+    display: inline-flex;
+    justify-content: space-around;
+  }
+  nav > .smoothieicon {
+    float: left;
+    margin-top: -30px;
+    margin-right: 500px;
+
+  }
+  nav ul {
+    display: inline-block;
+    right: 80px;
+    top: 1px;
+  }
+  nav li {
+    display: inline-block;
+    padding: 0 20px;
+  }
+  nav li > a {
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-size-adjust: 200px;
+    font-size: 25px;
+  
+    display: flex;
+  }
+  nav li > a:hover,
+  nav li > a:focus {
+    color: #cfc91d;
+  }
+ 
+  body {
+    padding: 200px;
+    margin-top: 75px;
+  }
+ 
+  img {
+    margin-left: -50px;
+    background-image: transparent;
+    float: left;
+    padding-right: 100px;
+
+  }
+   
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 60px;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
+
+.footer p {
+    margin: 0;
+    color: #FFFFFF;
+    padding-left: 35px;
+}
+
+  .button:hover {
+  background-color: #535362;
+  text-align: center;
+  }
+
+   .styled {
+   
+    line-height: 2.5;
+    padding: 15px 90px;
+
+    font-size: 1.5em;
+    margin: 15px;
+  
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+ 
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(155, 111, 111, 0.2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+  }
+  
+  .styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+  }
+  
+  .styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+  }
+  
